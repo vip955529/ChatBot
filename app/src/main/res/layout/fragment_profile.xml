@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Accounts"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_200"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/phoneNo"
+        android:layout_height="wrap_content"
+        android:hint="Phone number">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>  <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:hint="Name">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>  <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/email"
+        android:layout_height="wrap_content"
+        android:hint="Email">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/updateProfile"
+        android:layout_width="match_parent"
+        android:text="Update Profile"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_background"/>
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/payment"
+        android:layout_width="match_parent"
+        android:text="Buy subscription"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="16dp"/>
+
+
+    
+</LinearLayout>
