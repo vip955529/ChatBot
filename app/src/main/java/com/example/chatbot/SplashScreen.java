@@ -23,7 +23,7 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
 
-                PreferenceManager preferenceManager = new PreferenceManager(Constants.USER,SplashScreen.this);
+               PreferenceManager preferenceManager = new PreferenceManager(Constants.USER,SplashScreen.this);
                if (preferenceManager.isUserLoggedIn()){
                    startActivity(new Intent(SplashScreen.this,MainActivity.class));
                    finish();
